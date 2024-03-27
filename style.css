@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornsilk;
+}
+
+.container{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+}
+
+.game{
+    display: grid;
+    padding: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.grid-container button{
+    height: 100px;
+    width: 100%;
+    background-color: ivory;
+    color: brown;
+    font-size: 32px;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    margin: auto;
+    background-color: black;
+    color: azure;
+}
